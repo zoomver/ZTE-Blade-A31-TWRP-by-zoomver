@@ -1,0 +1,105 @@
+# TWRP FSTAB FILES for ZTE BLADE A31 (RU)
+# Kernel version: 4.14.193+
+# Core bit depth: 32 bit
+# Attention: Do not activate lines marked with "#" for the ZTE Blade A31!!!
+
+# FirsBoot.            
+/spl                                emmc     /dev/block/by-name/mmcblk0boot0                                                                       
+/spl_bk                          emmc    /dev/block/by-name/ mmcblk0boot1                                 
+
+# Userdata. 
+/data                                 f2fs     /dev/block/by-name/userdata                            flags=display="data";backup=1;flashimg=1;wipeingui;encryptable=footer
+/storage                           ext4     /data/media/0                    flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";flashimg=1
+
+# Modem.
+/ltemodem                     emmc     /dev/block/by-name/l_modem                    	flags=display="l_modem";backup=1;flashimg=1;slotselect
+/ltedsp                            emmc     /dev/block/by-name/l_ldsp                          	flags=display="l_ldsp";backup=1;slotselect;flashimg=1
+/ltegdsp                          emmc     /dev/block/by-name/l_gdsp			                flags=display="l_gdsp";backup=1;slotselect;flashimg=1
+/ltedeltanv                      emmc     /dev/block/by-name/l_deltanv			            flags=display="l_deltanv";backup=1;slotselect;flashimg=1
+/ltefixnv1                        emmc     /dev/block/by-name/l_fixnv1                      	flags=display="l_fixnv1";backup=1;slotselect;flashimg=1
+/ltefixnv2                        emmc     /dev/block/by-name/l_fixnv2                	     flags=display="l_fixnv2";backup=1;slotselect;flashimg=1
+/lteruntimenv1               emmc     /dev/block/by-name/l_runtimenv1            	flags=display="l_runtimenv1";backup=1;flashimg=1
+/lteruntimenv2               emmc     /dev/block/by-name/l_runtimenv2            	flags=display="l_runtimenv2";backup=1;flashimg=1
+/wcnmodem                   emmc     /dev/block/by-name/wcnmodem                  flags=display="wcnmodem";backup=1;flashimg=1;slotselect
+/gnssmodem                  emmc     /dev/block/by-name/gpsgl			                flags=display="gpsgl";backup=1;flashimg=1;slotselect
+/gnssbdmodem              emmc     /dev/block/by-name/gpsbd			              flags=display="gpsbd";backup=1;flashimg=1;slotselect
+/misc                      emmc    /dev/block/by-name/misc                      flags=display="misc";backup=1;flashimg=1         
+/miscdata                        emmc     /dev/block/by-name/miscdata                      
+/pmsys                             emmc    /dev/block/by-name/pm_sys                    	flags=display="pm_sys";backup=1;flashimg=1;slotselect
+
+# Vbmeta.
+/vbmeta                             emmc     /dev/block/by-name/vbmeta                  	         flags=display="vbmeta";backup=1;flashimg=1;slotselect
+/vbmeta_system              emmc     /dev/block/by-name/vbmeta_system        	     flags=display="vbmeta_system";backup=1;flashimg=1;slotselect
+/vbmeta_vendor               emmc     /dev/block/by-name/vbmeta_vendor		           flags=display="vbmeta_vendor";backup=1;flashimg=1;slotselect
+/vbmeta_product              emmc     /dev/block/by-name/vbmeta_product		         flags=display="vbmeta_product";backup=1;flashimg=1;slotselect
+/vbmeta_system_ext        emmc     /dev/block/by-name/vbmeta_system_ext     	  flags=display="vbmeta_system_ext";backup=1;flashimg=1;slotselect
+
+# Boot.
+/boot                                   emmc     /dev/block/by-name/boot                  	
+/uboot                                 emmc     /dev/block/by-name/uboot                     
+/uboot_log                          emmc     /dev/block/by-name/uboot_log              flags=display="uboot_log";backup=1
+/logo                                    emmc     /dev/block/by-name/logo                        flags=display="logo";backup=1;flashimg=1
+/fbootlogo                           emmc     /dev/block/by-name/fbootlogo              flags=display="fbootlogo";backup=1;flashimg=1
+/vendor_boot                      emmc     /dev/block/by-name/vendor_boot         flags=display="vendor_boot";backup=1;flashimg=1;slotselect
+
+# Cache.
+/cache                                     emmc    /dev/block/by-name/cache                       flags=display="cache";backup=1
+
+# Vendor.
+/socko                                        ext4     /dev/block/by-name/socko                  	flags=display="socko *"
+/socko_image                        emmc     /dev/block/by-name/socko             	flags=display="socko";backup=1;slotselect;flashimg=1
+/odmko                               	ext4     /dev/block/by-name/odmko                 	flags=display="odmko *"
+/odmko_image                   	emmc     /dev/block/by-name/odmko          	flags=display="odmko";backup=1;slotselect;flashimg=1
+/prodnv       	                          ext4   /dev/block/by-name/prodnv                 	flags=display="prodnv *"
+/prodnv_image       	             emmc   /dev/block/by-name/prodnv                 	flags=display="prodnv";backup=1;flashimg=1
+
+# Vendor (stock info fstab).
+# /mnt/vendor/socko               ext4     /dev/block/by-name/socko      noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc    wait,check,slotselect
+# /mnt/vendor/odmko              ext4    /dev/block/by-name/odmko      noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc    wait,check,slotselect
+# /vendor       	                          emmc   /dev/block/by-name/prodnv                 	flags=display="prodnv";backup=1;flashimg=1
+# /mnt/vendor                             ext4   /dev/block/by-name/prodnv      noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc wait,check
+
+# ZTE Config.
+/ztecfg                                      emmc   /dev/block/by-name/ztecfg                         flags=display="ztecfg";backup=1;flashimg=1
+/ztepersist                                emmc  /dev/block/by-name/ztepersist                  flags=display="ztepersist";backup=1;flashimg=1
+
+# Security.
+/tos                                       emmc    /dev/block/by-name/trustos                 	flags=display="trustos";backup=1;flashimg=1;slotselect
+/teecfg                                 emmc    /dev/block/by-name/teecfg                  	flags=display="teecfg";backup=1;flashimg=1;slotselect
+/metadata                        	ext4  /dev/block/by-name/metadata               	flags=formattable
+/metadata                        	emmc  /dev/block/by-name/metadata               	flags=display="metadata";backup=1;flashimg=1
+
+# DT.
+/dtb                                      emmc   /dev/block/by-name/dtb                          flags=display="dtb";backup=1;flashimg=1;slotselect
+/dtbo                                    emmc   /dev/block/by-name/dtbo                    	flags=display="dtbo";backup=1;flashimg=1;slotselect
+
+# Other.
+/sml                                     emmc    /dev/block/by-name/sml			                flags=slotselect
+/persist                   	     	emmc    /dev/block/by-name/persist              		flags=display="persist";backup=1;flashimg=1
+/sysdumpdb                        emmc    /dev/block/by-name/sysdumpdb             flags=display="sysdumpdb";backup=1
+
+# Super and Dynamic partition only
+/system                           ext4       /dev/block/mapper/system_b                         flags=display="system";backup=1;wipeingui
+/system_ext                    ext4       /dev/block/mapper/system_ext_b                 flags=display="system_ext";backup=1;wipeingui
+/vendor                           ext4       /dev/block/mapper/vendor_b                         flags=display="vendor";backup=1;wipeingui
+/product                          ext4       /dev/block/mapper/product_b                  flags=display="product";backup=1;wipeingui
+
+/system_image                           emmc       /dev/block/mapper/system_b                         flags=display="system image";backup=1;flashimg=1
+/system_ext_image                    emmc       /dev/block/mapper/system_ext_b                 flags=display="system_ext image";backup=1;flashimg=1
+/vendor_image                           emmc       /dev/block/mapper/vendor_b                         flags=display="vendor image";backup=1;flashimg=1
+/product_image                          emmc       /dev/block/mapper/product_b                  flags=display="product image";backup=1;flashimg=1
+/super                  emmc     /dev/block/by-name/super                   flags=display="super image";backup=1;flashimg=1
+
+# Folder and block mount (stock info fstab).
+# /dev/block/by-name/vendor                /vendor             ext4    ro,barrier=1    wait,slotselect
+# /dev/block/by-name/prodnv                /mnt/vendor         ext4    noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc     wait,check
+# /dev/block/by-name/metadata /metadata    ext4 nodev,noatime,nosuid,errors=panic wait,formattable,first_stage_mount,check
+# /dev/block/by-name/socko                 /socko              ext4    noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc    wait,check,slotselect
+# /dev/block/by-name/odmko                 /odmko              ext4    noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc    wait,check,slotselect
+# /dev/block/by-name/prodnv                /mnt/vendor         ext4    noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc     wait,check
+# /mnt/vendor/persist                ext4      /dev/block/by-name/ztepersist    noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc   wait,check,slotselect,formattable
+
+# Removable storage.
+/external_sd	auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1			flags=fsflags=utf8;storage;wipeingui;removable
+# /usb-otg	       auto	/dev/block/sda1	       	/dev/block/sda				  flags=storage;wipeingui;removable
+/usb-otg      auto     /dev/block/sda1  /dev/block/sda           flags=display="usb-otg";storage;wipeingui;removable;fsflags="utf8"

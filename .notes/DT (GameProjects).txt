@@ -1,0 +1,14 @@
+Дерево устройств ZTE Blade A31 (RU) 
+базируется на примере 
+пользователя GameProjects.
+Так как модель BQ-5745L CLEVER
+имеет сходные по "железу" характеристики.
+Так же пользователь GameProjects
+дал подсказку, как можно произвести
+снятие шифрования раздела "DATA",
+путём изменения параметров файлов
+fstab.s9863a1h10_go_32b в " vendor".
+
+Ссылка на оригинальный пример:
+https://github.com/ManInTheMirrow/android_device_bqru_BQru-5745L/tree/android-11
+Огромное спасибо GameProjects.

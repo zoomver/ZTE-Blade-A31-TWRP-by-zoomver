@@ -1,0 +1,12 @@
+#add for board init.rc for recovery mode
+import /init.recovery.common.rc
+
+on init
+    start set_permissive
+
+service set_permissive /system/bin/set_permissive.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
