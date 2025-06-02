@@ -260,14 +260,14 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
  
  ***<summary>Вкладка: Главный экран</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A2%D0%B8%D1%82%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82.png)
 </details>
 
 <details>
  
  ***<summary>Вкладка: Дополнительно</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE.PNG)
 </details>
 
 
@@ -284,42 +284,42 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
  
  ***<summary>Вкладка: Монтирование</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%9C%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.jpg)
 </details>
 
 <details>
  
  ***<summary>Вкладка: Настройки</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8.jpg)
 </details>
 
 <details>
  
  ***<summary>Вкладка: Перезагрузка</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A1%D0%BB%D0%BE%D1%82%20A-B.jpg)
 </details>
 
 <details>
  
  ***<summary>Вкладка: Файловый Менеджер</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80.jpg)
 </details>
 
 <details>
  
  ***<summary>Шифрование включено</summary>***
   
-
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A8%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BE.jpg)
 </details>
 
 <details>
  
  ***<summary>Шифрование выключено</summary>***
   
-  
+  ![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A8%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%D1%8B%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BE.jpg)
 </details>
 
 [ОБРАТНО](#Содержание)
