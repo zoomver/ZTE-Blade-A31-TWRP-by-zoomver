@@ -11,8 +11,8 @@
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
 7. **Утилиты**:
-- [*LPTOOLS*](#LPTOOLS)
-9. **Релиз.**
+- [**LPTOOLS**](#LPTOOLS)
+8. **Релиз.**
 
 *Состав релиза:*
 - TWRP (boot.img "patch magisk v26.3")
@@ -327,6 +327,15 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 [ОБРАТНО](#Содержание)
 
 # LPTOOLS
-
+Установка GSI размером более 1gb.
+-Удаляем раздел "product_b"
+Команда:
+lptools remove product_b
+-Производим расширение раздела "system_b"
+Команда:
+lptools resize system_b 2 147 483 648
+-Перезагрузить TWRP для обновления разделов.
+-Перепрошить system.img в раздел system.img
+-Перезагрузиться в систему.
 
 [ОБРАТНО](#Содержание)
