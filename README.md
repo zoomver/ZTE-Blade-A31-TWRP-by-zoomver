@@ -10,7 +10,9 @@
 4.  [**Софт для создания и сборки TWRP.**](#Использовался-софт)
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
-7. **Релиз.**
+7. ***Утилиты***:
+   ∆[-LPTOOLS](#LPTOOLS)
+8. **Релиз.**
 
 *Состав релиза:*
 - TWRP (boot.img "patch magisk v26.3")
@@ -225,10 +227,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
  [ОБРАТНО](#Содержание)
 
-# TWRP находится в стадии тестирования. Готовность TWRP 99.9%
-Тестирование провожу в репозитории [GitHub Pages](https://github.com/zoomver/TWRP-TEST-ZOOMVER).
-
-
+# Готовность TWRP 99.9%
 
 # Функции:
 - [x] ***Тачскрин***
@@ -327,4 +326,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 [ОБРАТНО](#Содержание)
 
+# LPTOOLS
 
+
+[ОБРАТНО](#Содержание)
