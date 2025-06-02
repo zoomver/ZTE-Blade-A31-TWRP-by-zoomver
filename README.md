@@ -275,7 +275,9 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
  ***<summary>Вкладка: Резервное копирование</summary>***
   
 ![ZTE](https://github.com/zoomver/TWRP-TEST-ZOOMVER/blob/twrp-11/.content/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B21.jpg)
+
 ![ZTE](https://github.com/zoomver/TWRP-TEST-ZOOMVER/blob/twrp-11/.content/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B22.jpg)
+
 ![ZTE](https://github.com/zoomver/TWRP-TEST-ZOOMVER/blob/twrp-11/.content/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B23.jpg)
 </details>
 
