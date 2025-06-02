@@ -330,16 +330,24 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 Установка GSI размером более 1gb.
 
 -Удаляем раздел "product_b"
+
 Команда:
-lptools remove product_b
 
--Производим расширение раздела "system_b"
+***lptools remove product_b***
+
+-Производим расширение раздела 
+"system_b"
+
 Команда:
-lptools resize system_b 2 147 483 648
 
--Перезагрузить TWRP для обновления разделов.
+***lptools resize system_b 2 147 
+483 648***
 
--Перепрошить system.img в раздел system.img
+-Перезагрузить TWRP для обновления
+разделов.
+
+-Перепрошить system.img в раздел 
+system.img
 
 -Перезагрузиться в систему.
 
