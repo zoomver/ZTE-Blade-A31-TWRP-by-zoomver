@@ -267,9 +267,8 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
  
  ***<summary>Вкладка: Дополнительно</summary>***
   
-![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE.PNG)
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE.png)
 </details>
-
 
 <details>
  
