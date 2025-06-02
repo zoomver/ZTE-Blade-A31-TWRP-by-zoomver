@@ -35,7 +35,7 @@ s9863a1h10_go_32b
 Версия оборудования:            
 zf7A
 
-![ZTE](https://github.com/user-attachments/assets/b748f8dd-28bc-4816-86c3-b7f27e6c3566)
+![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/ZTE.jpeg)
 
 
  [ОБРАТНО](#Содержание)
