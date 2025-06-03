@@ -331,6 +331,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 <details>
  
  <summary>Порядок действий.</summary>
+
 -Запускаем TWRP.
 -Выбираем вкладку "Монтирование".
 -Размонтируем все разделы.
@@ -360,6 +361,6 @@ system.img
 -Перезагрузиться в систему.
 <details>
 
-
+<details>
 
 [ОБРАТНО](#Содержание)
