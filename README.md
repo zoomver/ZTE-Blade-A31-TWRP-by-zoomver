@@ -11,7 +11,7 @@
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
 7. **Утилиты**:
-     - [**lptools**](#LPTOOLS)
+  - [**lptools**](#LPTOOLS)
 8. **Релиз.**
 
 *Состав релиза:*
@@ -334,10 +334,15 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
  </summary>
 
 -Запускаем TWRP.
+
 -Выбираем вкладку "Монтирование".
+
 -Размонтируем все разделы.
+
 -Выбираем вкладку "Дополнительно".
+
 -Выбираем укладку "Терминал".
+
 -В терминале вводим команды:
 1. Удаляем раздел "product_b"
 
@@ -360,7 +365,8 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему.
-
+<details>
+<details>
 
 
 [ОБРАТНО](#Содержание)
