@@ -227,8 +227,6 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
  [ОБРАТНО](#Содержание)
 
-# Готовность TWRP 99.9%
-
 # Функции:
 - [x] ***Тачскрин***
 - [x] ***Монтирования***
@@ -360,6 +358,6 @@ system.img
 -Перезагрузиться в систему.
 <details>
 
-</details>
+
 
 [ОБРАТНО](#Содержание)
