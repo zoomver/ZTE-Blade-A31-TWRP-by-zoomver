@@ -11,7 +11,7 @@
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
 7. **Утилиты**:
-- [**lptools**](#LPTOOLS)
+     - [**lptools**](#LPTOOLS)
 8. **Релиз.**
 
 *Состав релиза:*
@@ -330,8 +330,8 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 <details>
  
- <summary>Порядок действий.</summary>
-
+ <summary>Порядок действий.
+ </summary>
 
 -Запускаем TWRP.
 -Выбираем вкладку "Монтирование".
@@ -360,5 +360,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему.
+
+
 
 [ОБРАТНО](#Содержание)
