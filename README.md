@@ -325,9 +325,10 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 [ОБРАТНО](#Содержание)
 
 # LPTOOLS
+</details>
 
 ***<summary>Установка GSI  размером >1gb (кратко).</summary>***
-</details>
+
 -Запускаем TWRP
 
 -Выбираем вкладку "Монтирование"
@@ -360,3 +361,4 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему
+</details>
