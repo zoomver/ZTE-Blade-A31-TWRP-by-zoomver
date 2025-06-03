@@ -11,7 +11,7 @@
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
 7. **Утилиты**:
-  - [**lptools**](#LPTOOLS)
+   - [**lptools**](#LPTOOLS)
 8. **Релиз.**
 
 *Состав релиза:*
@@ -326,7 +326,9 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 # LPTOOLS
 
- ***<summary>Установка GSI размером >1gb (кратко).</summary>***
+ ***<summary>Установка GSI 
+ размером >1gb (кратко).
+ </summary>***
 
 <details>
  
@@ -365,8 +367,5 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему.
-<details>
-<details>
-
 
 [ОБРАТНО](#Содержание)
