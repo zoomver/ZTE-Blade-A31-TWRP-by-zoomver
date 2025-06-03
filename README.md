@@ -326,10 +326,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 # LPTOOLS
 
- ***<summary>Установка GSI 
- размером >1gb (кратко).
- </summary>***
-
+***<summary>Установка GSI  размером >1gb (кратко).</summary>***
 <details>
  
  <summary>Порядок действий.
@@ -366,6 +363,6 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 -Перепрошить system.img в раздел 
 system.img
 
--Перезагрузиться в систему.
+-Перезагрузиться в систему.<details>
 
 [ОБРАТНО](#Содержание)
