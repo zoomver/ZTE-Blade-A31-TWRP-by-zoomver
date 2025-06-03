@@ -1,7 +1,7 @@
 # Репозиторий.
 "ZTE-Blade-A31-TWRP-by-zoomver"
 
-TWRP создано для смартфона
+TWRP создано для смартфона      
 ZTE Blade A31 RU.
 
 Номер сборки:      
