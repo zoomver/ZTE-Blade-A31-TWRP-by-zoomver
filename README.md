@@ -11,7 +11,7 @@
 5.  [**Рабочие функции TWRP.**](#Функции)
 6. [**Скриншоты TWRP.**](#Скриншоты)
 7. **Утилиты**:
-- [**LPTOOLS**](#LPTOOLS)
+- [**lptools**](#LPTOOLS)
 8. **Релиз.**
 
 *Состав релиза:*
@@ -330,15 +330,21 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 <details>
  
- ***<summary>Установка GSI размером более 1gb.</summary>***
+ ***<summary>Установка GSI размером >1gb (кратко).</summary>***
 
--Удаляем раздел "product_b"
+-Запускаем TWRP.
+-Выбираем вкладку "Монтирование".
+-Размонтируем все разделы.
+-Выбираем вкладку "Дополнительно".
+-Выбираем укладку "Терминал".
+-В терминале вводим команды:
+1. Удаляем раздел "product_b"
 
 Команда:
 
 ***lptools remove product_b***
 
--Производим расширение раздела 
+2. Производим расширение раздела 
 "system_b"
 
 Команда:
@@ -353,6 +359,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему.
+
 <details>
 
 [ОБРАТНО](#Содержание)
