@@ -6,7 +6,9 @@ ZTE Blade A31 RU.
 
 Номер сборки:      
 *GEN_RU_A31RU_V1.0*         
+
 *Kernel version: 4.14.193* 
+
 *Core bit depth: 32 bit*
 
 # Содержание.
