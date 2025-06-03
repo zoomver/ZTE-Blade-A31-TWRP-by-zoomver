@@ -338,7 +338,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 
 -Выбираем вкладку "Дополнительно"
 
--Выбираем укладку "Терминал"
+-Выбираем вкладку "Терминал"
 
 -В терминале вводим команды:
 1. Удаляем раздел "product_b"
@@ -359,7 +359,7 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 разделов
 
 -Перепрошить system.img в раздел 
-system.img
+"system.img"
 
 -Перезагрузиться в систему
 </details>
