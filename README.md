@@ -359,7 +359,8 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 system.img
 
 -Перезагрузиться в систему.
-
 <details>
 
+<details>
+ 
 [ОБРАТНО](#Содержание)
