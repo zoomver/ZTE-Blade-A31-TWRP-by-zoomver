@@ -25,7 +25,7 @@ ZTE Blade A31 RU.
 *Состав релиза:*
 - TWRP (boot.img "patch magisk v26.3")
 - Vendor patch (vendor.img "removing Data encryption")
-
+[Скачать релиз](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/releases/latest)
 
 
 # Благодарность.  
