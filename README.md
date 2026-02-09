@@ -277,7 +277,6 @@ online assembly [GitHub Pages](https://github.com/azwhikaru/Action-TWRP-Builder)
 # Скриншоты.
 
 <details>
- 
  ***<summary>Вкладка: Главный экран</summary>***
   
 ![ZTE](https://github.com/zoomver/ZTE-Blade-A31-TWRP-by-zoomver/blob/twrp-11/.content/%D0%A2%D0%B8%D1%82%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82.png)
